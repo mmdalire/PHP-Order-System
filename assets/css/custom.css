@@ -1,0 +1,30 @@
+table {
+    margin: 10px 0;
+}
+
+.badge.badge-danger {
+    background-color: #d9534f;
+}
+
+/*Customer page*/
+#customers-product-display {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.product-item-panel {
+    margin: 10px;
+}
+
+.products-quantity-label,
+.products-price-label,
+.label-products-quantity,
+.label-products-price,
+.products-created-date-label{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.tab-pane {
+    padding: 15px 0;
+}
